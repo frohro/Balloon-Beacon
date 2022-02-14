@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Balloon")(type "KiCad")(uri "${KIPRJMOD}/Balloon.kicad_sym")(options "")(descr ""))
+  (lib (name "atgm336h-5n31")(type "KiCad")(uri "${KIPRJMOD}/atgm336h-5n31.kicad_sym")(options "")(descr ""))
+)
