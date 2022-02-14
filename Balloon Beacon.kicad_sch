@@ -1751,7 +1751,6 @@
     )
   )
 
-
   (junction (at 109.22 109.22) (diameter 0) (color 0 0 0 0)
     (uuid 0f3b22f1-ad58-4a45-9067-f7595ba0afa9)
   )
@@ -2355,11 +2354,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0a58ced9-8763-4a7d-aa08-48b94d853e38)
   )
-  (text "Check programming headers to \nmake sure pinout is right on\nthe footprints."
-    (at 205.74 58.42 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3e087e04-a8e2-4c0f-a8b4-cf005b628ee3)
-  )
   (text "5th-order Chebyshev,\nfc=14.5MHz, 0.5-dB ripple" (at 151.13 25.4 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d067cfdd-9cbd-47ea-b843-39bf31c3907e)
@@ -2638,8 +2632,8 @@
     (pin "19" (uuid aa2ea573-3f20-43c1-aa99-1f9c6031a9aa))
     (pin "2" (uuid f40d350f-0d3e-4f8a-b004-d950f2f8f1ba))
     (pin "20" (uuid 0e1ed1c5-7428-4dc7-b76e-49b2d5f8177d))
-    (pin "21" (uuid 14c51520-6d91-4098-a59a-5121f2a8990b))
-    (pin "21" (uuid 14c51520-6d91-4098-a59a-5121f2a8990b))
+    (pin "21" (uuid 14c51520-6d91-4098-a59a-5121f2a8990c))
+    (pin "21" (uuid 14c51520-6d91-4098-a59a-5121f2a8990c))
     (pin "22" (uuid 2d67a417-188f-4014-9282-000265d80009))
     (pin "23" (uuid 84e5506c-143e-495f-9aa4-d3a71622f213))
     (pin "24" (uuid 477311b9-8f81-40c8-9c55-fd87e287247a))
@@ -3294,7 +3288,7 @@
     (property "Value" "SolderJumper_2_Open" (id 1) (at 226.06 88.8999 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (id 2) (at 223.52 87.63 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (id 2) (at 223.52 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 223.52 87.63 0)
@@ -4391,7 +4385,7 @@
       (reference "J6") (unit 1) (value "GPS_ANT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/7acad855-ca17-4ab1-8fa0-6bf876855ebd"
-      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "")
+      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
     (path "/38660ac3-4961-47b0-bbb6-8ac190a31e1a"
       (reference "L1") (unit 1) (value "750 nH") (footprint "Inductor_SMD:L_1008_2520Metric")
