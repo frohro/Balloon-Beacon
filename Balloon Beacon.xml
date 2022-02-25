@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/frohro/Classes/Intro to Engineering/Balloon Beacon/Balloon Beacon.kicad_sch</source>
-    <date>Mon 17 Jan 2022 10:17:34 PM PST</date>
-    <tool>Eeschema 6.0.1-79c1e3a40b~116~ubuntu21.10.1</tool>
+    <date>Thu 24 Feb 2022 01:53:49 PM PST</date>
+    <tool>Eeschema 6.0.2-378541a8eb~116~ubuntu21.10.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Balloon Beacon</title>
@@ -38,24 +38,24 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810302011_FH-Guangdong-Fenghua-Advanced-Tech-0603B471K500NT_C1620.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1620</field>
+        <field name="LCSC">C1620</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="JLCPCB" value="C1620"/>
+      <property name="LCSC" value="C1620"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>82a4f9c3-7112-4429-82d3-9b360534c31f</tstamps>
     </comp>
     <comp ref="C3">
-      <value>1 uF</value>
+      <value>22 uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810261812_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C15849</field>
+        <field name="LCSC">C59461</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C15849"/>
+      <property name="LCSC" value="C59461"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -66,10 +66,10 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191220_Samsung-Electro-Mechanics-CL21B331KBANNNC_C51207.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C51207</field>
+        <field name="LCSC">C51207</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="JLCPCB" value="C51207"/>
+      <property name="LCSC" value="C51207"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -80,10 +80,10 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1525</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1525"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -94,10 +94,10 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1525</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1525"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -108,38 +108,38 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810261513_Samsung-Electro-Mechanics-CL10C100JB8NNNC_C1634.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1634</field>
+        <field name="LCSC">C1634</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1634"/>
+      <property name="LCSC" value="C1634"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>843e0e9c-f1a6-4b20-a307-ec4b4be5d228</tstamps>
     </comp>
     <comp ref="C8">
-      <value>1 uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810261812_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf</datasheet>
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C15849</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C15849"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>25c45ca5-9097-42c4-b962-73a092e2b3cb</tstamps>
+      <tstamps>58ce3956-661c-4fc8-a5db-d9ac60b713c2</tstamps>
     </comp>
     <comp ref="C9">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1525</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1525"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -150,10 +150,10 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810261513_Samsung-Electro-Mechanics-CL10C100JB8NNNC_C1634.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1634</field>
+        <field name="LCSC">C1634</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1634"/>
+      <property name="LCSC" value="C1634"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -162,49 +162,54 @@
     <comp ref="C11">
       <value>Super Cap</value>
       <footprint>Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/AVX-SCC-LE.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/kyocera-avx/SCCS30B106PRBLE/12664114</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digikey" value="https://www.digikey.com/en/products/detail/kyocera-avx/SCCS30B106PRBLE/12664114"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f68feaa9-3724-4046-ab1f-ab16804e7206</tstamps>
     </comp>
     <comp ref="C12">
-      <value>10nF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/2102081402_FH-Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf</datasheet>
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C57112</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C57112"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>57849295-d364-4182-b693-103642d2aae6</tstamps>
+      <tstamps>64b2abae-d6b4-438c-8ecf-891569eb81be</tstamps>
     </comp>
     <comp ref="C13">
-      <value>0.47uF</value>
+      <value>22 uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810261513_Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261812_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1623</field>
+        <field name="LCSC">C59461</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1623"/>
+      <property name="LCSC" value="C59461"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b9dd6eb8-a1c0-4e87-9097-d817a9b629d2</tstamps>
+      <tstamps>842d48ad-8b90-46f9-8160-46c5ec76f179</tstamps>
     </comp>
     <comp ref="C14">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1525</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1525"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -215,10 +220,10 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1525</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1525"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -229,10 +234,10 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1525</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1525"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -243,10 +248,10 @@
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1525</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1525"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -255,21 +260,26 @@
     <comp ref="C18">
       <value>Super Cap</value>
       <footprint>Capacitor_THT:CP_Radial_D18.0mm_P7.50mm</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/AVX-SCC-LE.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/kyocera-avx/SCCS30B106PRBLE/12664114</field>
+      </fields>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Digikey" value="https://www.digikey.com/en/products/detail/kyocera-avx/SCCS30B106PRBLE/12664114"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>97aedeae-8c43-48df-bb4a-83746ecf0a47</tstamps>
+      <tstamps>b8e0beee-47a9-4a30-a473-eb952a922e79</tstamps>
     </comp>
     <comp ref="C19">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810191219_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C1525</field>
+        <field name="LCSC">C1525</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="JLCPCB" value="C1525"/>
+      <property name="LCSC" value="C1525"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -280,10 +290,10 @@
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810202112_Guangdong-Hottech-1N5819WS_C191023.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C191023</field>
+        <field name="LCSC">C191023</field>
       </fields>
       <libsource lib="Device" part="D_Schottky_Filled" description="Schottky diode, filled shape"/>
-      <property name="JLCPCB" value="C191023"/>
+      <property name="LCSC" value="C191023"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -294,42 +304,38 @@
       <footprint>Diode_SMD:D_SOD-323</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810202112_Guangdong-Hottech-1N5819WS_C191023.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C191023</field>
+        <field name="LCSC">C191023</field>
       </fields>
       <libsource lib="Device" part="D_Schottky_Filled" description="Schottky diode, filled shape"/>
-      <property name="JLCPCB" value="C191023"/>
+      <property name="LCSC" value="C191023"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b72888b8-3cb5-4a79-b8fd-454198a15afc</tstamps>
     </comp>
-    <comp ref="D3">
-      <value>ZMM5V6</value>
-      <footprint>Balloon:ll-34</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1809301122_ST-Semtech-ZMM5V6_C8062.pdf</datasheet>
-      <fields>
-        <field name="JLCPCB">C8062</field>
-      </fields>
-      <libsource lib="Device" part="D_Zener_Filled" description="Zener diode, filled shape"/>
-      <property name="JLCPCB" value="C8062"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e55d4210-6b54-4109-8d3f-07909ea786e8</tstamps>
-    </comp>
     <comp ref="D4">
-      <value>For Debugging</value>
+      <value>Status</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1806130620_Hubei-KENTO-Elec-C2293_C2293.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C2293</field>
+        <field name="LCSC">C2293</field>
       </fields>
       <libsource lib="Device" part="LED_Filled" description="Light emitting diode, filled shape"/>
-      <property name="JLCPCB" value="C2293"/>
+      <property name="LCSC" value="C2293"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b4ed9742-ec7a-408b-a0bb-534c6b7ca651</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>CM1214A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/cm1214a-d.pdf</datasheet>
+      <libsource lib="Power_Protection" part="CM1213A-01SO" description="Single Channel ESD Protection Array"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43e1df36-c5cc-49dc-823b-2c8bff4ba413</tstamps>
     </comp>
     <comp ref="H1">
       <value>72-ohm vertical dipole</value>
@@ -396,6 +402,7 @@
     </comp>
     <comp ref="JP1">
       <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
@@ -405,8 +412,12 @@
     <comp ref="L1">
       <value>750 nH</value>
       <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/281/JELF243A_0085-1380913.pdf</datasheet>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0173.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/murata-electronics/LQW2UASR75J0CL/10135346</field>
+      </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Digikey" value="https://www.digikey.com/en/products/detail/murata-electronics/LQW2UASR75J0CL/10135346"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -415,66 +426,55 @@
     <comp ref="L2">
       <value>750 nH</value>
       <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
-      <datasheet>https://www.mouser.com/datasheet/2/281/JELF243A_0085-1380913.pdf</datasheet>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0173.pdf</datasheet>
+      <fields>
+        <field name="Digikey">https://www.digikey.com/en/products/detail/murata-electronics/LQW2UASR75J0CL/10135346</field>
+      </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Digikey" value="https://www.digikey.com/en/products/detail/murata-electronics/LQW2UASR75J0CL/10135346"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>499ef3fd-e4bb-49f6-b781-664bbe3200a7</tstamps>
+      <tstamps>439e6463-0296-4527-8dc6-47fb96e37143</tstamps>
     </comp>
     <comp ref="Q1">
       <value>AO3401A</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1810171817_Alpha-&amp;-Omega-Semicon-AO3401A_C15127.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C15127</field>
+        <field name="LCSC">C15127</field>
       </fields>
       <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
-      <property name="JLCPCB" value="C15127"/>
+      <property name="LCSC" value="C15127"/>
       <property name="Field5" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4394847d-f9d6-4a30-aebe-a6be74dfae31</tstamps>
     </comp>
-    <comp ref="Q2">
-      <value>AO3401A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1810171817_Alpha-&amp;-Omega-Semicon-AO3401A_C15127.pdf</datasheet>
-      <fields>
-        <field name="JLCPCB">C15127</field>
-      </fields>
-      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
-      <property name="JLCPCB" value="C15127"/>
-      <property name="Field5" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>29b8ad81-6d5c-4bfa-9aaf-93ce77d0852f</tstamps>
-    </comp>
     <comp ref="R1">
-      <value>10k</value>
+      <value>16k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C25804</field>
+        <field name="LCSC">C17490</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="JLCPCB" value="C25804"/>
+      <property name="LCSC" value="C17490"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>95f160b6-a4fd-4b13-bb28-a2fdd2789259</tstamps>
+      <tstamps>cd7ce95e-a15f-4c64-b5e6-cf238cf8667e</tstamps>
     </comp>
     <comp ref="R2">
       <value>4.99k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811021212_UNI-ROYAL-Uniroyal-Elec-0603WAF4991T5E_C23046.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C23046</field>
+        <field name="LCSC">C23046</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="JLCPCB" value="C23046"/>
+      <property name="LCSC" value="C23046"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -485,10 +485,10 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811021212_UNI-ROYAL-Uniroyal-Elec-0603WAF4991T5E_C23046.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C23046</field>
+        <field name="LCSC">C23046</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="JLCPCB" value="C23046"/>
+      <property name="LCSC" value="C23046"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -499,94 +499,103 @@
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811021212_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C22843</field>
+        <field name="LCSC">C22843</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="JLCPCB" value="C22843"/>
+      <property name="LCSC" value="C22843"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3ca2bb11-49d3-4591-bf59-22f494e85be0</tstamps>
     </comp>
     <comp ref="R5">
-      <value>1.5k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811021212_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf</datasheet>
+      <value>16k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C22843</field>
+        <field name="LCSC">C17490</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="JLCPCB" value="C22843"/>
+      <property name="LCSC" value="C17490"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c824a5e3-df89-44cd-8628-dfb590cfba5c</tstamps>
+      <tstamps>bb169485-ea91-48f0-84f9-8d0dc38623fa</tstamps>
     </comp>
     <comp ref="R6">
-      <value>1M</value>
+      <value>43k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252130_UNI-ROYAL-Uniroyal-Elec-0603WAF4302T5E_C23172.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C22935</field>
+        <field name="LCSC">C23172</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="JLCPCB" value="C22935"/>
+      <property name="LCSC" value="C23172"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4066d4ab-62f8-4e9f-8250-9a6bfc246fb2</tstamps>
+      <tstamps>899f2138-654f-4006-8064-70dd81c968bf</tstamps>
     </comp>
     <comp ref="R7">
-      <value>1M</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C22935</field>
+        <field name="LCSC">C25741</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="JLCPCB" value="C22935"/>
+      <property name="LCSC" value="C25741"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b67a06a9-8450-4322-897f-51a02613a5ac</tstamps>
+      <tstamps>c41d84a1-bbf3-4ee4-a465-501ffd0726d6</tstamps>
     </comp>
     <comp ref="R8">
-      <value>1.5k</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811021212_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C22843</field>
+        <field name="LCSC">C22775</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="JLCPCB" value="C22843"/>
+      <property name="LCSC" value="C22775"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fd65cc3a-87c1-4f09-83cd-bc62ec233fda</tstamps>
     </comp>
-    <comp ref="U1">
-      <value>XC6206P332MR</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/lcsc/1809201513_Torex-Semicon-XC6206P332MR_C5446.pdf</datasheet>
-      <fields>
-        <field name="JLCPCB">C83932</field>
-      </fields>
-      <libsource lib="Regulator_Linear" part="APE8865N-24-HF-3" description="300mA Low Dropout Voltage Regulator, Fixed Output 2.4V, SOT-23"/>
-      <property name="JLCPCB" value="C83932"/>
+    <comp ref="SC1">
+      <value>Solar_Cell</value>
+      <datasheet>https://www.mouser.com/ProductDetail/PowerFilm/MPT36-75?qs=BJlw7L4Cy79PADpX3LN7rA%3D%3D</datasheet>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e60f60b1-569c-44be-a02f-371c1e3a88f2</tstamps>
+      <tstamps>636dce35-ff98-43a1-aeb4-4c95a15832a9</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CJ431</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809140322_Changjiang-Electronics-Tech--CJ-CJ431--_C3113.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3113</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="TL431DBZ" description="Shunt Regulator, SOT-23"/>
+      <property name="LCSC" value="C3113"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02163717-eac1-4757-bdb2-c94f527ed6dd</tstamps>
     </comp>
     <comp ref="U2">
       <value>ATmega328PB-MU</value>
       <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C967933</field>
+        <field name="LCSC">C967933</field>
       </fields>
       <libsource lib="MCU_Microchip_ATmega" part="ATmega328PB-A" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
-      <property name="JLCPCB" value="C967933"/>
+      <property name="LCSC" value="C967933"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -607,10 +616,10 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Texas-Instruments-LM50CIM3-NOPB_C411880.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C411880</field>
+        <field name="LCSC">C411880</field>
       </fields>
       <libsource lib="TMP36" part="TMP36" description=""/>
-      <property name="JLCPCB" value="C411880"/>
+      <property name="LCSC" value="C411880"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -621,10 +630,10 @@
       <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
       <datasheet>https://www.silabs.com/documents/public/data-sheets/Si5351-B.pdf</datasheet>
       <fields>
-        <field name="JLCPCB">C504891</field>
+        <field name="LCSC">C504891</field>
       </fields>
       <libsource lib="Oscillator" part="Si5351A-B-GT" description="I2C Programmable Any-Frequency CMOS Clock Generator, MSOP-8"/>
-      <property name="JLCPCB" value="C504891"/>
+      <property name="LCSC" value="C504891"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -639,6 +648,34 @@
       <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>adc8caae-59c2-4408-9214-42b5d0803157</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>CJ431</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809140322_Changjiang-Electronics-Tech--CJ-CJ431--_C3113.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3113</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="TL431DBZ" description="Shunt Regulator, SOT-23"/>
+      <property name="LCSC" value="C3113"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baa71a50-2fd0-4138-9b60-9e126a6553c1</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>CJ431</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809140322_Changjiang-Electronics-Tech--CJ-CJ431--_C3113.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C3113</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="TL431DBZ" description="Shunt Regulator, SOT-23"/>
+      <property name="LCSC" value="C3113"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Balloon Beacon.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d71bfd6e-6dbd-4d3c-960e-b04239009ec6</tstamps>
     </comp>
     <comp ref="Y1">
       <value>8 MHz</value>
@@ -793,25 +830,6 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="D_Zener_Filled">
-      <description>Zener diode, filled shape</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Zener_Filled</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="LED_Filled">
       <description>Light emitting diode, filled shape</description>
       <docs>~</docs>
@@ -879,6 +897,19 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Solar_Cell">
+      <description>Single solar cell</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SC</field>
+        <field name="Value">Solar_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Jumper" part="SolderJumper_2_Open">
       <description>Solder Jumper, 2-pole, open</description>
       <docs>~</docs>
@@ -906,7 +937,7 @@
         <field name="Value">ATmega328PB-MU</field>
         <field name="Footprint">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm</field>
         <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf</field>
-        <field name="JLCPCB">C967933</field>
+        <field name="LCSC">C967933</field>
       </fields>
       <pins>
         <pin num="1" name="PD3" type="bidirectional"/>
@@ -1003,22 +1034,40 @@
         <pin num="10" name="CLK0" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="Regulator_Linear" part="APE8865N-24-HF-3">
-      <description>300mA Low Dropout Voltage Regulator, Fixed Output 2.4V, SOT-23</description>
-      <docs>http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf</docs>
+    <libpart lib="Power_Protection" part="CM1213A-01SO">
+      <description>Single Channel ESD Protection Array</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/cm1214a-d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">CM1214A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/cm1214a-d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VP" type="passive"/>
+        <pin num="2" name="VN" type="passive"/>
+        <pin num="3" name="CH1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="TL431DBZ">
+      <description>Shunt Regulator, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
       <footprints>
         <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">APE8865N-24-HF-3</field>
+        <field name="Value">TL431DBZ</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl431.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VO" type="power_out"/>
-        <pin num="3" name="VI" type="power_in"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="REF" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="TMP36" part="TMP36">
@@ -1055,7 +1104,7 @@
         <pin num="4" name="TIMEPULSE" type="output"/>
         <pin num="5" name="EXTINT" type="input"/>
         <pin num="6" name="V_BCKP" type="power_in"/>
-        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="power_in"/>
         <pin num="8" name="VCC" type="power_in"/>
         <pin num="9" name="~{RESET}" type="input"/>
         <pin num="10" name="GND" type="passive"/>
@@ -1092,8 +1141,11 @@
     <library logical="Oscillator">
       <uri>/usr/share/kicad/symbols//Oscillator.kicad_sym</uri>
     </library>
-    <library logical="Regulator_Linear">
-      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    <library logical="Power_Protection">
+      <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
     </library>
     <library logical="atgm336h-5n31">
       <uri>/home/frohro/Classes/Intro to Engineering/Balloon Beacon/atgm336h-5n31.kicad_sym</uri>
@@ -1101,20 +1153,30 @@
   </libraries>
   <nets>
     <net code="1" name="+3V3">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="AVCC" pintype="power_in"/>
       <node ref="U2" pin="4" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U2" pin="6" pinfunction="PE1" pintype="bidirectional"/>
+      <node ref="U4" pin="1" pinfunction="VCC" pintype="bidirectional"/>
       <node ref="U6" pin="6" pinfunction="V_BCKP" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="9" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="REF" pintype="passive"/>
     </net>
     <net code="2" name="/CLK0">
       <node ref="C6" pin="1" pintype="passive"/>
@@ -1129,89 +1191,75 @@
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="5" name="/GPS_E">
-      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U2" pin="11" pinfunction="PD7" pintype="bidirectional"/>
     </net>
-    <net code="6" name="/LED">
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="U2" pin="22" pinfunction="PE3" pintype="bidirectional"/>
-    </net>
-    <net code="7" name="/MISO">
+    <net code="6" name="/MISO">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="8" name="/MOSI">
+    <net code="7" name="/MOSI">
       <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="9" name="/RESET">
+    <net code="8" name="/RESET">
+      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U2" pin="29" pinfunction="~{RESET}/PC6" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/RXD">
+    <net code="9" name="/RXD">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U2" pin="30" pinfunction="PD0" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/RXI">
+    <net code="10" name="/RXI">
       <node ref="U2" pin="2" pinfunction="PD4" pintype="bidirectional"/>
       <node ref="U6" pin="2" pinfunction="TXD" pintype="output"/>
     </net>
-    <net code="12" name="/SCL">
+    <net code="11" name="/SCL">
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="28" pinfunction="PC5" pintype="bidirectional"/>
       <node ref="U5" pin="4" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="13" name="/SCLK">
+    <net code="12" name="/SCLK">
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U2" pin="17" pinfunction="PB5" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/SDA">
+    <net code="13" name="/SDA">
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="27" pinfunction="PC4" pintype="bidirectional"/>
       <node ref="U5" pin="5" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/TEMP">
+    <net code="14" name="/TEMP">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="U2" pin="24" pinfunction="PC1" pintype="bidirectional"/>
       <node ref="U4" pin="2" pinfunction="VOUT" pintype="bidirectional"/>
     </net>
-    <net code="16" name="/TIMEP">
+    <net code="15" name="/TIMEP">
       <node ref="U2" pin="32" pinfunction="PD2" pintype="bidirectional"/>
       <node ref="U6" pin="4" pinfunction="TIMEPULSE" pintype="output"/>
     </net>
-    <net code="17" name="/TXD">
+    <net code="16" name="/TXD">
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U2" pin="31" pinfunction="PD1" pintype="bidirectional"/>
     </net>
-    <net code="18" name="/TXO">
+    <net code="17" name="/TXO">
       <node ref="U2" pin="1" pinfunction="PD3" pintype="bidirectional"/>
       <node ref="U6" pin="3" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="19" name="/TX_E">
+    <net code="18" name="/TX_E">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="10" pinfunction="PD6" pintype="bidirectional"/>
     </net>
-    <net code="20" name="/VDD">
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="C16" pin="1" pintype="passive"/>
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
-      <node ref="U4" pin="1" pinfunction="VCC" pintype="bidirectional"/>
-    </net>
-    <net code="21" name="/VDD_TST">
+    <net code="19" name="/VDD_TST">
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="REF" pintype="passive"/>
       <node ref="U2" pin="23" pinfunction="PC0" pintype="bidirectional"/>
     </net>
-    <net code="22" name="GND">
+    <net code="20" name="GND">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
@@ -1227,16 +1275,16 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="VP" pintype="passive"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="U2" pin="21" pinfunction="GND" pintype="input"/>
-      <node ref="U2" pin="3" pinfunction="PE0" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="GND" pintype="passive"/>
       <node ref="U2" pin="33" pinfunction="Thermal_Pad" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
@@ -1245,136 +1293,148 @@
       <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U6" pin="10" pinfunction="GND" pintype="passive"/>
       <node ref="U6" pin="12" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(C1-Pad2)">
+    <net code="21" name="Net-(C1-Pad2)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="L1" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(C2-Pad2)">
+    <net code="22" name="Net-(C2-Pad2)">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="L2" pin="1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(C4-Pad2)">
+    <net code="23" name="Net-(C4-Pad2)">
       <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="VN" pintype="passive"/>
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(C7-Pad1)">
+    <net code="24" name="Net-(C7-Pad1)">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="XTAL2/PB7" pintype="bidirectional"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(C9-Pad1)">
+    <net code="25" name="Net-(C9-Pad1)">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="U2" pin="20" pinfunction="AREF" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(C10-Pad1)">
+    <net code="26" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="U2" pin="7" pinfunction="XTAL1/PB6" pintype="bidirectional"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(C11-Pad2)">
+    <net code="27" name="Net-(C11-Pad2)">
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="REF" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(C12-Pad1)">
+    <net code="28" name="Net-(C12-Pad1)">
       <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="U3" pin="3" pinfunction="OUT" pintype="output"/>
-    </net>
-    <net code="31" name="Net-(C12-Pad2)">
-      <node ref="C12" pin="2" pintype="passive"/>
       <node ref="U5" pin="2" pinfunction="XA" pintype="input"/>
     </net>
-    <net code="32" name="Net-(C13-Pad1)">
-      <node ref="C13" pin="1" pintype="passive"/>
-      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
-      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="U6" pin="8" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U6" pin="9" pinfunction="~{RESET}" pintype="input"/>
+    <net code="29" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="33" name="Net-(C17-Pad1)">
+    <net code="30" name="Net-(C17-Pad1)">
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="VDD" pintype="power_in"/>
       <node ref="U5" pin="1" pinfunction="VDD" pintype="power_in"/>
       <node ref="U5" pin="7" pinfunction="VDDO" pintype="power_in"/>
     </net>
-    <net code="34" name="Net-(D1-Pad2)">
+    <net code="31" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(D2-Pad2)">
+    <net code="32" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(D4-Pad1)">
+    <net code="33" name="Net-(D4-Pad1)">
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(J6-Pad1)">
+    <net code="34" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="PE3" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(J6-Pad1)">
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U6" pin="11" pinfunction="RF_IN" pintype="input"/>
     </net>
-    <net code="38" name="Net-(Q1-Pad1)">
+    <net code="36" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="NC" pintype="power_in"/>
+    </net>
+    <net code="37" name="Net-(Q1-Pad1)">
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(Q2-Pad1)">
-      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-    </net>
-    <net code="40" name="Net-(U6-Pad5)">
+    <net code="38" name="Net-(U2-Pad25)">
       <node ref="U2" pin="25" pinfunction="PC2" pintype="bidirectional"/>
       <node ref="U6" pin="5" pinfunction="EXTINT" pintype="input"/>
     </net>
-    <net code="41" name="unconnected-(JP1-Pad1)">
-      <node ref="JP1" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    <net code="39" name="unconnected-(D5-Pad3)">
+      <node ref="D5" pin="3" pinfunction="CH1" pintype="passive+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(U2-Pad12)">
+    <net code="40" name="unconnected-(SC1-Pad1)">
+      <node ref="SC1" pin="1" pinfunction="+" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(SC1-Pad2)">
+      <node ref="SC1" pin="2" pinfunction="-" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="PE0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="PE1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U2-Pad12)">
       <node ref="U2" pin="12" pinfunction="PB0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(U2-Pad13)">
+    <net code="45" name="unconnected-(U2-Pad13)">
       <node ref="U2" pin="13" pinfunction="PB1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(U2-Pad14)">
+    <net code="46" name="unconnected-(U2-Pad14)">
       <node ref="U2" pin="14" pinfunction="PB2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(U2-Pad19)">
+    <net code="47" name="unconnected-(U2-Pad19)">
       <node ref="U2" pin="19" pinfunction="PE2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(U2-Pad26)">
+    <net code="48" name="unconnected-(U2-Pad26)">
       <node ref="U2" pin="26" pinfunction="PC3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(U3-Pad1)">
+    <net code="49" name="unconnected-(U3-Pad1)">
       <node ref="U3" pin="1" pinfunction="VC" pintype="input+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(U5-Pad3)">
+    <net code="50" name="unconnected-(U5-Pad3)">
       <node ref="U5" pin="3" pinfunction="XB" pintype="input+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(U5-Pad9)">
+    <net code="51" name="unconnected-(U5-Pad9)">
       <node ref="U5" pin="9" pinfunction="CLK1" pintype="output+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(U6-Pad7)">
-      <node ref="U6" pin="7" pinfunction="NC" pintype="no_connect"/>
-    </net>
-    <net code="51" name="unconnected-(U6-Pad13)">
+    <net code="52" name="unconnected-(U6-Pad13)">
       <node ref="U6" pin="13" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="52" name="unconnected-(U6-Pad14)">
+    <net code="53" name="unconnected-(U6-Pad14)">
       <node ref="U6" pin="14" pinfunction="VCC_RF" pintype="power_out+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(U6-Pad15)">
+    <net code="54" name="unconnected-(U6-Pad15)">
       <node ref="U6" pin="15" pinfunction="Reserved" pintype="no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U6-Pad16)">
+    <net code="55" name="unconnected-(U6-Pad16)">
       <node ref="U6" pin="16" pinfunction="SDA" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U6-Pad17)">
+    <net code="56" name="unconnected-(U6-Pad17)">
       <node ref="U6" pin="17" pinfunction="SCL" pintype="input+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U6-Pad18)">
+    <net code="57" name="unconnected-(U6-Pad18)">
       <node ref="U6" pin="18" pinfunction="Reserved" pintype="no_connect"/>
     </net>
   </nets>
